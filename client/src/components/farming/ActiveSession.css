@@ -1,0 +1,98 @@
+.active-session {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.active-session h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.session-icon {
+  font-size: 2rem;
+}
+
+.session-details {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background-color: #0f172a;
+  border-radius: 8px;
+}
+
+.detail-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.detail-label {
+  font-size: 0.75rem;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.detail-value {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #e2e8f0;
+}
+
+.status-badge {
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  display: inline-block;
+  width: fit-content;
+}
+
+.status-badge.active {
+  background-color: rgba(59, 130, 246, 0.2);
+  color: #3b82f6;
+}
+
+.status-badge.ready {
+  background-color: rgba(16, 185, 129, 0.2);
+  color: #10b981;
+  animation: pulse 2s infinite;
+}
+
+.ready-message {
+  margin: 1.5rem 0;
+  padding: 1rem;
+  background-color: rgba(16, 185, 129, 0.1);
+  border: 2px solid #10b981;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.ready-message p {
+  margin: 0;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.session-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.session-actions .button {
+  flex: 1;
+  padding: 1rem;
+  font-size: 1.125rem;
+}
+
+@media (max-width: 640px) {
+  .session-details {
+    grid-template-columns: 1fr;
+  }
+}

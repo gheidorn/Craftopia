@@ -1,0 +1,80 @@
+.farming-page {
+  padding: 2rem 0;
+}
+
+.farming-results {
+  text-align: center;
+}
+
+.results-icon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.results-title {
+  margin-bottom: 1.5rem;
+  color: #cbd5e1;
+  font-size: 1.25rem;
+}
+
+.results-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem;
+  background-color: #0f172a;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+}
+
+.results-quantity {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #3b82f6;
+}
+
+.results-material {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.material-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #e2e8f0;
+}
+
+.results-details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #0f172a;
+  border-radius: 8px;
+}
+
+.results-details .detail {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.results-details .detail-label {
+  font-size: 0.75rem;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.results-details .detail-value {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #e2e8f0;
+}
+
+.results-details .detail-value.gold {
+  color: #f59e0b;
+}

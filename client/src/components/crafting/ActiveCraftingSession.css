@@ -1,0 +1,56 @@
+.active-crafting-session {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.session-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.session-title {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.session-title h4 {
+  margin: 0;
+  font-size: 1.125rem;
+  color: #e2e8f0;
+}
+
+.session-details {
+  display: flex;
+  gap: 2rem;
+  padding: 1rem;
+  background-color: #0f172a;
+  border-radius: 8px;
+}
+
+.ready-message {
+  padding: 1rem;
+  background-color: rgba(16, 185, 129, 0.1);
+  border: 2px solid #10b981;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.ready-message p {
+  margin: 0;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.session-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.session-actions .button {
+  flex: 1;
+  padding: 0.875rem;
+}
